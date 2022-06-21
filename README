@@ -1,0 +1,32 @@
+
+
+
+Informally, the Levenshtein distance between two words is the minimum number of single-character edits
+(insertions, deletions or substitutions) required to change one word into the other.
+
+It is named after the Soviet mathematician Vladimir Levenshtein, who considered this distance in 1965.
+
+This application calculates the required operations and also prints them:
+
+> Demo:
+
+Enter Start String: Farhad
+Enter Ending String: Farzad
+Edit Distance between `Farhad` and `Farzad` is: 2
+
+Operations performed are:
+ Operations on Start String:
+   Char 'F' -> No Operation
+   Char 'a' -> No Operation
+   Char 'r' -> No Operation
+   Char 'h' -> Substitution
+   Char 'a' -> No Operation
+   Char 'd' -> No Operation
+
+ Operations on Ending String:
+   Char 'F' -> No Operation
+   Char 'a' -> No Operation
+   Char 'r' -> No Operation
+   Char 'z' -> Substitution
+   Char 'a' -> No Operation
+   Char 'd' -> No Operation
